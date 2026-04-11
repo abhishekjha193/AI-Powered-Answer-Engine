@@ -2,6 +2,9 @@ import dotenv from 'dotenv';
 import app from './src/app.js';
 import connectDB from './src/config/db.js';
 import './src/service/mail.service.js';
+import { testAI } from './src/service/ai.service.js';
+
+testAI();
 
 dotenv.config();
 
